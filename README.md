@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Finance AI 
 
-## Getting Started
+Finance AI é uma plataforma moderna de gestão financeira que utiliza Inteligência Artificial para ajudar você a controlar melhor suas finanças pessoais.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Autenticação Segura**: Sistema de login e cadastro integrado com Clerk
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Gestão de Transações**: Registre e acompanhe:
+  - Depósitos
+  - Despesas
+  - Investimentos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Categorização Inteligente**: Organize suas transações em categorias como:
+  - Moradia
+  - Transporte
+  - Alimentação
+  - Entretenimento
+  - Saúde
+  - Utilidades
+  - Salário
+  - Educação
+  - Outros
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Múltiplos Métodos de Pagamento**: Suporte para:
+  - Cartão de Crédito
+  - Cartão de Débito
+  - Transferência Bancária
+  - Boleto
+  - Dinheiro
+  - PIX
 
-## Learn More
+- **Interface Moderna**: Design responsivo e intuitivo
 
-To learn more about Next.js, take a look at the following resources:
+- **Insights por IA**: Análises personalizadas das suas movimentações financeiras
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tecnologias Utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Frontend**:
+  - [Next.js 14](https://nextjs.org/) - Framework React com App Router
+  - [TypeScript](https://www.typescriptlang.org/) - Tipagem estática
+  - [Tailwind CSS](https://tailwindcss.com/) - Estilização
+  - [Lucide React](https://lucide.dev/) - Ícones
+  - [Clerk](https://clerk.com/) - Autenticação
 
-## Deploy on Vercel
+- **Backend**:
+  - [Prisma](https://www.prisma.io/) - ORM
+  - [PostgreSQL](https://www.postgresql.org/) - Banco de Dados
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Desenvolvimento**:
+  - [ESLint](https://eslint.org/) - Linting
+  - [Prettier](https://prettier.io/) - Formatação de código
+  - [Husky](https://typicode.github.io/husky/) - Git hooks
+  - [Git Commit Msg Linter](https://www.npmjs.com/package/git-commit-msg-linter) - Padronização de commits
