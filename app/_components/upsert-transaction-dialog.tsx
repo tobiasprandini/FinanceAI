@@ -149,6 +149,7 @@ const UpsertTransactionDialog = ({
                   <FormLabel>Valor</FormLabel>
                   <FormControl>
                     <MoneyInput
+                      value={field.value}
                       placeholder="Digite o valor..."
                       onValueChange={({ floatValue }) =>
                         field.onChange(floatValue)
