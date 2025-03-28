@@ -11,7 +11,6 @@ const TransactionsPage = async () => {
   if (!userId) {
     redirect("/login")
   }
-  // Acessar as transações do meu banco de dados
   const transactions = await db.transaction.findMany({
     where: {
       userId,
