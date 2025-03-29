@@ -6,7 +6,7 @@ export const getDashboard = async (month: string) => {
   const where = {
     date: {
       gte: new Date(`2025-${month}-01`),
-      lt: new Date(`2024-${month}-31`),
+      lt: new Date(`2025-${month}-31`),
     },
   };
   const depositsTotal = Number(
@@ -47,10 +47,10 @@ export const getDashboard = async (month: string) => {
       (Number(depositsTotal || 0) / Number(transactionsTotal)) * 100,
     ),
     [TransactionType.EXPENSE]: Math.round(
-      (Number(depositsTotal || 0) / Number(transactionsTotal)) * 100,
+      (Number(expensesTotal || 0) / Number(transactionsTotal)) * 100,
     ),
     [TransactionType.INVESTMENT]: Math.round(
-      (Number(depositsTotal || 0) / Number(transactionsTotal)) * 100,
+      (Number(investmentsTotal || 0) / Number(transactionsTotal)) * 100,
     ),
   };
 
